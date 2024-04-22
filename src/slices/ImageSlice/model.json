@@ -1,0 +1,48 @@
+{
+  "id": "image_slice",
+  "type": "SharedSlice",
+  "name": "ImageSlice",
+  "description": "ImageSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "mynd": {
+          "type": "Image",
+          "config": {
+            "label": "Mynd",
+            "constraint": {
+              "width": 450,
+              "height": 450
+            },
+            "thumbnails": []
+          }
+        },
+        "titill": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Titill",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading1,strong,em"
+          }
+        },
+        "texti": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Texti",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        }
+      }
+    }
+  ]
+}
